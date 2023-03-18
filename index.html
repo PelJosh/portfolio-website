@@ -1,76 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PelJosh portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-  <div >
-    <div class="FirstLine">
-        <h3 >PellyTechnologies</h3>
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My ptf</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
 
-   <div class="FirstLine">
-     <button>Contact us </button>
-   </div>
+      <i class="bx bx-menu" id="menu-icon"></i>
 
-  <div class="SecondLine">
-    <div> <h2>Pelly</h2> </div>
-    <div class="SecondLine"> <a href="#" class="menu-btn"> 
-        <span></span> 
-        <span></span>
-        </a>
-    </div>
-  </div>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <p class="INTRODUCTION">
-    HELLO, MY NAME IS JOSHUA OYEDOLA
-    <P id="job">I AM A SOFTWARE ENGINEER</P>
-    <p>
+
+<!--home design-->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Joshua Oyedola</h1>
+        <h3>And i'm a <span class="multiple-text"></span></h3>
         <p>
-            from Lagos, Nigeria. I have a rich experience in Software development and Technical writing, i am also very good at wordpress. Still curious about me???
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, sint
+          vel ea corporis fugit earum a cupiditate recusandae! Soluta, dicta.
+          Explicabo harum quos voluptatibus nesciunt illum cumque sit saepe
+          fuga.
         </p>
-        <p class="socials">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-linkedin"></a>
-        </p>
-            <div class="backgroundImage">
-                <img src="image/ts (1).png" alt="">
-            </div>
-        <div>
-            <div class="btns">
-                <button> <span>Download CV</span> </button>
-                <a href="skills" class="btn-link">MY SKILLS</a>
-             </div>
-             <div class="info-list"> <ul>
-                <li>
-                    <span class="num"> "12" <strong>+</strong></span>
-                <span class="value">"Years of " <strong>Experience</strong></span>
-                </li>
-                <li>
-                    <span class="num">35</span>
-                    <span>
-                        "Completed" <strong>Projects</strong>
-                    </span>
-                </li>
-             </ul>
-
-
-            </div> 
+        <div class="social-media">
+          <a href="#"><i class='bx bxl-twitter'></i></a>
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></box-icon></a>
+          <a href="#"><i class='bx bxl-linkedin-square'></i></a>
         </div>
-        
-    </p>
-  </p>
-    
+        <a href="#" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="image/image.JPG" alt="" />
+      </div>
+    </section>
 
-  </div>
-    
-    
-</body>
+    <!--about section design -->
+
+   <section class="about" id="about">
+    <div class="about-img">
+        <img src="image/image.JPG" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Software Developer!</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore quos nesciunt a in praesentium porro tempora natus quasi laborum dolor autem, corrupti enim quae vitae modi harum reiciendis quod magnam!</p>
+        <a href="#" class="btn">Read More</a>
+
+
+    </div>
+   </section>
+
+   <!--services section-->
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi repudiandae natus exercitationem quibusdam, eveniet quae delectus incidunt inventore officiis, soluta veniam minus commodi expedita consequatur. Ad minus officia quae quia.</p>
+               
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-edit-alt'></i>
+                <h3>Technical writing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi repudiandae natus exercitationem quibusdam, eveniet quae delectus incidunt inventore officiis, soluta veniam minus commodi expedita consequatur. Ad minus officia quae quia.</p>
+               
+                <a href="#" class="btn">Read More</a>
+            </div>
+            
+            <div class="services-box">
+                <i class='bx bxs-edit-alt'></i>
+                <h3>Tech Consultancy</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi repudiandae natus exercitationem quibusdam, eveniet quae delectus incidunt inventore officiis, soluta veniam minus commodi expedita consequatur. Ad minus officia quae quia.</p>
+               
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+    <!--portfolio -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image/coding.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/writing.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Technical writing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image/consulting.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tech Consultancy</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            
+
+            
+        </div>
+
+
+
+    </section>
+
+
+    <!--Contact-->
+
+        <section class="contact" id="contact">
+           <h2 class="heading">Contact <span>Me!</span></h2> 
+           <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="email" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+           </form>
+
+
+        </section>
+
+            <!--footer design-->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2023 by PelJosh | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+<!--scroll reveal-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--typed js-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<!--custom javascripts -->
+
+   <script src="scripts.js"></script>
+
+  </body>
 </html>
